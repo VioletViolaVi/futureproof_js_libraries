@@ -1,7 +1,8 @@
 {
   "author": "Vivian",
   "scripts": {
-    "write": "node write.js"
+    "write": "node write.js",
+    "clean-up": "rm data.txt"
   },
   "dependencies": {
     "ansi-colors": "^4.1.3"
