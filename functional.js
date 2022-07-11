@@ -27,12 +27,17 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //   });
 // console.log(result2);
 
-const result3 = arr
-  .map((singleItem) => {
-    return singleItem * 2;
-  })
-  .reduce((first, second) => {
-    return first + second;
-  });
+// const result3 = arr
+//   .map((singleItem) => {
+//     return singleItem * 2;
+//   })
+//   .reduce((first, second) => {
+//     return first + second;
+//   });
+//  console.log(result3);
 
-console.log(result3);
+const result4 = arr.map((singleItem) => {
+  return singleItem > 5 ? 100 : -100;
+});
+
+console.log(result4);
