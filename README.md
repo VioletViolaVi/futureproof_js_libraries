@@ -1,1 +1,1 @@
-# futureproof_js_libraries
+# Futureproof JS Libraries
